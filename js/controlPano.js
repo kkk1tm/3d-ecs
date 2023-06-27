@@ -1,5 +1,5 @@
 const Panorama1 = new PANOLENS.ImagePanorama('assets/Panorama_1.jpg');
-const Panorama2 = new PANOLENS.ImagePanorama('assets/Panorama_2.jpg');
+const Panorama2 = new PANOLENS.ImagePanorama('assets/Panorama_5.1.jpg');
 const Panorama3 = new PANOLENS.ImagePanorama('assets/Panorama_3.jpg');
 const Panorama4 = new PANOLENS.ImagePanorama('assets/Panorama_4.jpg');
 const Panorama5 = new PANOLENS.ImagePanorama('assets/Panorama_5.jpg');
