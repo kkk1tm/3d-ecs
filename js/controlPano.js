@@ -34,26 +34,21 @@ const viewer = new PANOLENS.Viewer({
     cameraFov: 100
 });
 
-// Связь в коридоре
+
 Panorama1.link(Panorama2, SpotPositions[0]);
 Panorama2.link(Panorama1, SpotPositions[1]);
 
-// Связь коридора_2 и комнаты переговоров_1
 Panorama2.link(Panorama3, SpotPositions[2]);
 
-// Связь коридора_1 и комнаты переговоров_1
 Panorama1.link(Panorama3, SpotPositions[3]);
 Panorama3.link(Panorama1, SpotPositions[4]);
 
-// Связь переговорной_1 и переговорной_2
 Panorama3.link(Panorama4, SpotPositions[5]);
 Panorama4.link(Panorama3, SpotPositions[6]);
 
-// Связь коридора_1 и гостинной_1
 Panorama1.link(Panorama5, SpotPositions[7]);
 Panorama5.link(Panorama1, SpotPositions[8]);
 
-// Связь гостинной_1 и гостинной_2
 Panorama5.link(Panorama6, SpotPositions[9]);
 Panorama6.link(Panorama5, SpotPositions[10]);
 
